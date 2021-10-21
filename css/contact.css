@@ -1,0 +1,107 @@
+/* 
+WRITTEN BY: Aaron Lam
+EMAIL: aarontl1@uci.edu
+*/
+
+@keyframes send-button-animation {
+  0% {
+    visibility: visible;
+    width: 0;
+  }
+  100% {
+    visibility: visible;
+    width: 87px;
+  }
+}
+
+/*  -- CONTACT FORM -- */
+#contact-form {
+  text-align: left;
+  /* padding-left: 33%; */
+  padding: 0 0 20px 30%;
+}
+
+#contact-form label {
+  display: inline-block;
+  width: 75px;
+  vertical-align: middle;
+}
+
+#contact-form input[type=text], textarea {
+  font-family: Calibri, sans-serif;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 1.1em;
+  box-sizing: border-box;
+  resize: vertical;
+  width: 350px;
+}
+
+/* This is for myself (deciding whether or not I want labels in final website) */
+/* 
+#sender {
+  width: 25%;
+}
+
+#email {
+  width: 25%;
+}
+
+#subject {
+  width: 50%;
+}
+*/
+
+#message {
+  vertical-align: middle;
+  height: 250px;
+  /* width: 50%; */
+} 
+
+button[type=submit] {
+  margin-left: 27%;
+  font-size: 1.2em;
+  border: 1px solid #000000;
+  border-radius: 5%;
+  background: none;
+}
+
+button[type=submit] .m-icon {
+  vertical-align: middle;
+}
+
+button[type=submit]:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+/*  for cool hover animation */
+#button-bg {
+  margin-left: 27%;
+  width: 89px;
+  height: 28px;
+  background: black;
+  position: relative;
+  visibility: hidden;
+  top: -29px;
+  z-index: -1;
+}
+
+button[type=submit]:hover + #button-bg {
+  animation: .5s send-button-animation forwards;
+}
+
+/*  -- MEDIA QUERIES --  */
+/*  for most phones */
+@media all and (max-width: 600px) {
+  #contact-form {
+    padding-left: 1em;
+  }
+}
+
+@media all and (max-width: 480px) {
+  #page-title {
+    text-align: left;
+    margin-left: 0;
+  }
+}

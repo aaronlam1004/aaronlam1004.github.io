@@ -1,0 +1,91 @@
+<!--
+WRITTEN BY: Aaron Lam
+EMAIL: aarontl1@uci.edu
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Aaron Lam">
+  <meta name="description" content="A place to send a message to Aaron Lam">
+  <meta name="viewport" content="width=device-width, height=device-height, intial-scale=1"/>
+  <link href="css/all.css" rel="stylesheet" type="text/css"/> <!-- Font Awesome -->
+  <link href="css/index.css" rel="stylesheet" type="text/css"/>
+  <link href="css/contact.css" rel="stylesheet" type="text/css"/>
+  <title>Aaron Lam (Contact)</title>
+  <link rel="shortcut icon" type="image/jpg" href="media/favicon.ico"/>
+</head>
+<body>
+  <div class="body-background" style="left: 0;"></div>
+  <!-- NAVIGATION BAR -->
+  <nav>
+    <a href="index.html"><span class="m-icon">home</span> <span class="nav-text">Home</span></a>
+    <a id="current-page"><span class="m-icon">contact_support</span> <span class="nav-text">Contact</span></a>
+    <a href="projects.html"><span class="m-icon">code</span> <span class="nav-text">Projects</span></a>
+    <a id="resume-link" href="media/resume.pdf" target="_blank"><span class="m-icon">contact_page</span> <span class="nav-text">Resume</span></a>
+  </nav><br/><br/>
+  
+  <h1 id="page-title">Contact</h1>
+
+  <!-- SOCIALS -->
+  <ul id="socials">
+    <li>
+      <a href="https://github.com/aaronlam1004" target="_blank" title="GitHub Profile">
+        <span class="icon-link-shadow">
+          <img src="media/imgs/socials/github.png" alt="GitHub" class="icon-link"/>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/aaron-t-lam" target="_blank" title="LinkedIn Profile">
+        <span class="icon-link-shadow">
+          <img src="media/imgs/socials/linkedin.png" alt="LinkedIn" class="icon-link"/>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="https://aaronlam1004.itch.io/" target="_blank" title="itch.io Website">
+        <span class="icon-link-shadow">
+          <img src="media/imgs/socials/itchio.png" alt="itch.io" class="icon-link"/>
+        </span>
+      </a>
+    </li>
+  </ul>
+  
+  <div class="body-background" style="right: 0;"></div>
+  <!-- CONTACT FORM -->
+  <form id="contact-form">
+    <label for="sender">Sender:</label>
+    <input type="text" id="sender" name="sender" placeholder="Name"/><br/>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Email"/><br/>
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" placeholder="Subject"/><br/>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Message"></textarea><br/>
+    <button type="submit"><span class="m-icon">send</span> Send</button>
+    <div id="button-bg"></div>
+  </form>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="foot-section">
+      <strong>Author:</strong>
+      <p>Aaron Lam</p>
+    </div>
+    <div class="foot-section">
+      <strong>Contact:</strong>
+      <a href="mailto:aaronlam1004@gmail.com">aaronlam1004@gmail.com</a>
+      +1-562-508-8456
+    </div>
+    <div class="foot-section">
+      <strong>Socials:</strong>
+      <a href="https://github.com/aaronlam1004" target="_blank"><span class="fab fa-github"></span>GitHub</a>
+      <a href="https://www.linkedin.com/in/aaron-t-lam" target="_blank"><span class="fab fa-linkedin"></span>LinkedIn</a>
+      <a href="https://aaronlam1004.itch.io/" target="_blank"><span class="fab fa-itch-io"></span>itch.io</a>
+    </div>
+    <span id="spark-message">Made with ⚡ from <strong>Long Beach, California</strong>.</span>
+  </footer>
+</body>
+</html>
