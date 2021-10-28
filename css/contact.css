@@ -16,14 +16,7 @@ WRITTEN BY: Aaron Lam
 /*  -- CONTACT FORM -- */
 #contact-form {
   text-align: left;
-  /* padding-left: 33%; */
-  padding: 0 0 20px 30%;
-}
-
-#contact-form label {
-  display: inline-block;
-  width: 75px;
-  vertical-align: middle;
+  padding: 0 0 20px 35%;
 }
 
 #contact-form input[type=text], textarea {
@@ -33,32 +26,17 @@ WRITTEN BY: Aaron Lam
   font-size: 1.1em;
   box-sizing: border-box;
   resize: vertical;
-  width: 350px;
+  width: 50%
+  /* width: 350px; */
 }
-
-/* This is for myself (deciding whether or not I want labels in final website) */
-/* 
-#sender {
-  width: 25%;
-}
-
-#email {
-  width: 25%;
-}
-
-#subject {
-  width: 50%;
-}
-*/
 
 #message {
   vertical-align: middle;
   height: 250px;
-  /* width: 50%; */
 } 
 
 button[type=submit] {
-  margin-left: 27%;
+  margin-left: 20%;
   font-size: 1.2em;
   border: 1px solid #000000;
   border-radius: 5%;
@@ -76,7 +54,7 @@ button[type=submit]:hover {
 
 /*  for cool hover animation */
 #button-bg {
-  margin-left: 27%;
+  margin-left: 20%;
   width: 89px;
   height: 28px;
   background: black;
