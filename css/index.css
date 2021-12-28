@@ -32,7 +32,6 @@ WRITTEN BY: Aaron Lam
   position: absolute;
   z-index: -1;
   background: linear-gradient(45deg, #d7cce9, #f3c1cf); /* #bba6df */
-  overflow-x: hidden;
 }
 
 /*  default body styling */
@@ -41,6 +40,7 @@ body {
   color: #1A1A1A;
   text-align: center;
   font-family: Calibri, sans-serif;
+  /*overflow-x:  hidden;*/
 }
 
 /* default styling for material icons in Google fonts */
@@ -186,12 +186,18 @@ nav a:hover {
 }
 
 /*  these pertain to -- PROJECTS -- */
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
 .body-section a {
   text-decoration: none;
 }
 
 .body-section img {
-  width: 250px;
+  width: 350px;
   height: 200px;
   filter: opacity(75%);
   border: 5px solid;
