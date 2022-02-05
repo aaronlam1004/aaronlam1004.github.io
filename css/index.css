@@ -159,7 +159,7 @@ nav a:hover {
 .body-section {
   text-align: left;
   font-size: 1.3em;
-  margin-left: 13em;
+  margin: 0 auto;
   width: 28em;
 }
 
@@ -213,7 +213,7 @@ nav a:hover {
 /*  -- SKILLS TABLE -- */
 #skills-table {
   text-align: left;
-  margin: auto 0 auto 13em;
+  margin: 0 auto;
   font-size: 1.4em;
   border-collapse: separate;
   border-spacing: 3em 1em;
