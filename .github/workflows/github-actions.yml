@@ -1,0 +1,9 @@
+name: aaronlam1004 Vue Website Build
+on: [push]
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    name: Build Vue
+    steps:
+      - uses: action/checkout@v2
+

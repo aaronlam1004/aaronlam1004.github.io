@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+:root {
+  --background-color: #FFFFFF;
+  --foreground-color: #000000;
+  --sprite: url('@/assets/sprites/cresselia.png');
+  --sprite-bg-color: #FF80E5;
+}
+
+:root.dark-theme {
+  --background-color: #000000;
+  --foreground-color: #FFFFFF;
+  --sprite: url('@/assets/sprites/darkrai.png');
+  --sprite-bg-color: #919191;
+}
+
+:root.mew {
+  --sprite: url('@/assets/sprites/mew.png');
+  --sprite-bg-color: #FF80E5;
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+}
+
+::-webkit-scrollbhtml, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
