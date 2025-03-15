@@ -58,7 +58,7 @@ function toggleTheme() : void {
   }
 }
 
-function isNight() : bool {
+function isNight() : boolean {
   const date = new Date();
   const hours = date.getHours();
   return (hours < 6) || (hours >= 18);
