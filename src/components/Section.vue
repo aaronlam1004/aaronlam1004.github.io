@@ -1,14 +1,22 @@
 <template>
   <section>
-    <h1><slot name="title"></slot></h1>
+    <div>
+      <h1><slot name="title"></slot></h1>
+      <img :src="imageSrc"/>
+    </div>
     <slot></slot>
   </section>
 </template>
 
+<script setup lang="ts">
+const props = defineProps({
+  imageSrc: String
+});
+</script>
+
 <style scoped>
 h1 {
   margin: 0;
-  width: 100%;
   font-family: "Poetsen One", sans-serif;
   font-size: 4em;
   text-align: center;

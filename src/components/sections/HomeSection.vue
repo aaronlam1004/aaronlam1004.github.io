@@ -4,6 +4,7 @@ import IconLink from '@/components/IconLink.vue'
 import EmailIcon from '@/components/icons/EmailIcon.vue';
 import GitHubIcon from '@/components/icons/GitHubIcon.vue';
 import LinkedInIcon from '@/components/icons/LinkedInIcon.vue';
+import ResumeIcon from '@/components/icons/ResumeIcon.vue';
 </script>
 
 <template>
@@ -25,6 +26,11 @@ import LinkedInIcon from '@/components/icons/LinkedInIcon.vue';
           <EmailIcon/>
         </IconLink>
       </li>
+      <li>
+        <IconLink url="Aaron Lam's Resume.pdf">
+          <ResumeIcon/>
+        </IconLink>
+      </li>
     </ul>
   </Section>
 </template>
@@ -34,6 +40,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 100%;
+
   display: flex;
   flex-direction: row;
   justify-content: center;

@@ -1,13 +1,12 @@
 <script setup lang="ts">
 import HomeSection from '@/components/sections/HomeSection.vue';
+import AboutSection from '@/components/sections/AboutSection.vue';
 </script>
 
 <template>
   <main>
     <HomeSection></HomeSection>
-    <Section>
-      <template #title>About</template>
-    </Section>
+    <AboutSection></AboutSection>
   </main>
 </template>
 
