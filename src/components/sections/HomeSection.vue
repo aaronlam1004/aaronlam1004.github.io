@@ -27,7 +27,7 @@ import ResumeIcon from '@/components/icons/ResumeIcon.vue';
         </IconLink>
       </li>
       <li>
-        <IconLink url="Aaron Lam's Resume.pdf">
+        <IconLink url="Resume.pdf">
           <ResumeIcon/>
         </IconLink>
       </li>
