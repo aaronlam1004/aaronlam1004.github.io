@@ -24,7 +24,7 @@ import profileImg from '@/assets/profile.jpg';
         <li>Verification/Validation Scripts</li>
       </ul>
       <p>
-        On my free time I like playing games with friend and am currently trying to learn video editing and music production.
+        On my free time I like playing games with friend and am currently trying to learn new things.
       </p>
     </div>
   </Section>
