@@ -9,10 +9,10 @@ import profileImg from '@/assets/profile.jpg';
     <div class="content">
       <strong>Hello!</strong>
       <p>
-        I am a software engineer that does full-stack and embedded work.
+        I am a software engineer doing full-stack and embedded development.
       </p>
       <p>
-        In terms of experience, have developed/worked on:
+        Some of my experience includes:
       </p>
       <ul>
         <li>Mobile Apps</li>
@@ -39,12 +39,27 @@ Section {
 }
 
 .content {
-  font-family: "Quicksand", sans-serif;
+  font-family: "DM Sans", sans-serif;
   width: 25%;
-  font-size: 1.25em;
 }
 
-.content strong {
-  font-size: 1.5em;
+@media (max-width: 750px) {
+  .content {
+    font-size: 0.8em;
+  }
+  
+  .content strong {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 750px) {
+  .content {
+    font-size: 1.25em;
+  }
+  
+  .content strong {
+    font-size: 1.5em;
+  }
 }
 </style>
