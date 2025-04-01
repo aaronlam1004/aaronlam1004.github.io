@@ -21,7 +21,6 @@ import profileImg from '@/assets/profile.jpg';
         <li>Touch Applications</li>
         <li>Control Systems</li>
         <li>Embedded Drivers</li>
-        <li>Verification/Validation Scripts</li>
       </ul>
       <p>
         On my free time I like playing games with friend and am currently trying to learn new things.
