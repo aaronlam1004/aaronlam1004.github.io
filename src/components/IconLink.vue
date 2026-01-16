@@ -29,13 +29,17 @@ a div {
   }
 }
 
-a:hover div {
-  background: red;
+a div {
   background: linear-gradient(
     90deg,
     hsla(248, 100%, 64%, 1) 0%,
     hsla(339, 100%, 55%, 1) 100%
   );
   animation: rotate 2s linear infinite;
+}
+
+a:hover div {
+  animation: none;
+  background: none;
 }
 </style>
