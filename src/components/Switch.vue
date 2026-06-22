@@ -11,18 +11,18 @@
 @import '@/assets/base.css';
 
 div {
-  width: 4em;
+  width: 3em;
   height: 1.5em;
   padding: 0em 1em;
 }
 
 label {
   position: absolute;
-  width: 4em;
+  width: 3em;
   height: 1.5em;
   background-color: var(--foreground-color);
   cursor: pointer;
-  border-radius: 100px;
+  border-radius: 34px;
 }
 
 span {
@@ -31,7 +31,7 @@ span {
   width: 1.3em;
   top: 0.1em;
   left: 0.1em;
-  border-radius: 100px; 
+  border-radius: 34px; 
   background-color: var(--background-color);
   transition: 0.4s;
 }
@@ -44,9 +44,9 @@ span {
 
 :deep(input:checked) + span {
   background-color: var(--background-color);
-}
-
-:deep(input:checked) + span {
-  transform: translateX(2.4em);
+  transform: translateX(1.45em);
+  top: 0.225em;
+  width: 1.1em;
+  height: 1.05em;
 }
 </style>
