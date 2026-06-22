@@ -14,3 +14,7 @@ main {
 svg {
   fill: var(--foreground-color);
 }
+
+svg:hover {
+  fill: var(--background-color);
+}

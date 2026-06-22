@@ -12,14 +12,6 @@ const props = defineProps<{
 </script>
 
 <style scoped>
-a div {
-  position: absolute;
-  width: 2.25em;
-  padding: 0.5em 0.5em;
-  height: 2.25em;
-  border-radius: 20px;
-}
-
 @keyframes rotate {
   from {
     transform: rotate(0);
@@ -30,16 +22,16 @@ a div {
 }
 
 a div {
-  background: linear-gradient(
-    90deg,
-    hsla(248, 100%, 64%, 1) 0%,
-    hsla(339, 100%, 55%, 1) 100%
-  );
+  position: absolute;
+  width: 2.25em;
+  height: 2.25em;
+  padding: 0.5em 0.5em;
+  border-radius: 20px;
   animation: rotate 2s linear infinite;
 }
 
 a:hover div {
-  animation: none;
-  background: none;
+  background: var(--foreground-color); 
 }
+
 </style>
